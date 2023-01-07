@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner {
+	display: flex;
+}
+
+#banner {
+	position: relative;
+	justify-content: center;
+	width: 90%;
+}
+
+#logo {
+	width: 30%;
+	transform: translate(0, -30%);
+	background-color: transparent;
+}
+
+#cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#nav_menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#signInIcon {
+	width: 10%;
+}
+
+#menuIcon {
+	width: 6%;
+	transform: translate(0, -20%);
+}
+
+#banner2 {
+	width: 90%;
+	border-radius: 20px;
+}
+
+#middleBanner {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+#middleBanner > img {
+	position: relative;
+}
+
+#middleBanner > div {
+	position: absolute;
+	transform: translate(170%, 20%);
+}
+
+#topBanner > div {
+	position: absolute;
+	left: 70%;
+	transform: translate(0%, 30%);
+}
+
+#topBanner > h2 {
+	transform: translate(25%, 1200%);
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+.card {
+	height: 300px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+li {
+	list-style-type: none;
+	line-height: 25px;
+	padding: 5px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 260%;
+	transform: translate(25%, 270%);
+}
+
+h2 {
+	font-size: 200%;
+	padding: 20px;
+}
+
+p {
+	font-size: 150%;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
